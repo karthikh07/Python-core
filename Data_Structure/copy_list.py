@@ -1,0 +1,11 @@
+l=[2,3,4,5,6,8]
+l2=[]
+l3=l
+l2=l.copy()
+print(l3)
+print(l2)
+l2.pop()
+l3.pop()
+print(l3)
+print(l2)
+print(l)
