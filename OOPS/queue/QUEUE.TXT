@@ -1,0 +1,79 @@
+QUEUE:
+
+1>DATA STRUCTURE
+2>ALGORITHM
+3>LINEAR DATA STRUCTURE
+4>FIFO (FIRST IN FIRST OUT)
+
+
+OPEATIONS:
+1>INSERTION
+2>DELETION
+
+
+
+
+
+Operations possible on the queue are:
+
+1>En-queue or add an element to the end of the queue
+2>De-queue or remove an element from the front of the queue
+
+
+
+
+OPEATIONS:
+1>INSERTION
+2>DELETION
+
+
+
+
+1>INSERTION FROM REAR
+2>DELETION FROM FRONT
+
+
+
+FRONT WILL ALWAYS POINTING TO THE FIRST LOCATION
+INITIALLY REAR WILL ALSO BE POINTING TO FIRST LOCATION IF THERE IS NO ELEMENT IN THE LIST.
+
+
+F=0
+R=0
+
+
+
+
+WE WILL ALWAYS INSERT USING THE REAR VARIABLE
+AFTER INSERTING RARE VALUE IS CHANGED.
+
+
+
+
+
+
+Simple FIFO queue.
+       
+ Methods defined here:
+       
+    empty(self)
+      Return True if the queue is empty, False otherwise.
+       
+    get(self)
+      Remove and return an item from the queue.
+           
+       
+    put(self)
+      Put the item on the queue.
+           
+       
+    qsize(self, /)
+      Return the approximate size of the queue.
+     
+
+
+
+
+
+[None]*self.__max_size  
+    
